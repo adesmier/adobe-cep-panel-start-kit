@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ExtensionList>
+    <Extension Id="com.demo.panel.youradobepanel">
+        <HostList>
+            <Host Name="IDSN" Port="8088"/>
+        </HostList>
+    </Extension>
+</ExtensionList>
+ 

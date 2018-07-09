@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.demo.panel.youradobepanel" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Menus Example" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.demo.panel.youradobepanel" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="IDSN" Version="[11.0,13.9]"/>
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="7.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.demo.panel.youradobepanel">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./jsx/indesign.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Size and high PPI</Menu>
+					<Geometry>
+						<Size>
+							<Height>403</Height>
+							<Width>347</Width>
+						</Size>
+   					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./image/iconLightThemeNormal.png</Icon>
+						<Icon Type="RollOver">./image/iconLightThemeRollover.png</Icon>
+						<Icon Type="DarkNormal">./image/iconDarkThemeNormal.png</Icon>
+						<Icon Type="DarkRollOver">./image/iconDarkThemeRollover.png</Icon>
+					</Icons>					
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

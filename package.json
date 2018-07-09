@@ -1,0 +1,49 @@
+{
+  "name": "adobe-cep-panel-starter-kit",
+  "version": "1.0.0",
+  "description": "A base template to get started with creating Adobe CEP Panels. Includes Webpack, ES6 and SASS compilation",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack/webpack.config.js",
+    "clean": "node ./script/cleanDist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adesmier/adobe-cep-panel-starter-kit.git"
+  },
+  "directories": {
+    "panelName": "com.demo.panel.youradobepanel"
+  },
+  "author": "Anthony Desmier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adesmier/adobe-cep-panel-starter-kit/issues"
+  },
+  "homepage": "https://github.com/adesmier/adobe-cep-panel-starter-kit#readme",
+  "dependencies": {
+    "font-awesome": "4.7.0",
+    "prop-types": "15.6.2",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "webpack": "3.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-register": "6.26.0",
+    "copy-webpack-plugin": "4.5.2",
+    "css-loader": "0.28.11",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.11",
+    "html-webpack-plugin": "2.30.1",
+    "node-sass": "4.9.1",
+    "rimraf": "2.6.2",
+    "sass-loader": "6.0.7",
+    "style-loader": "0.19.1"
+  }
+}
